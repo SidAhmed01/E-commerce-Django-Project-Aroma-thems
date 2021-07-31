@@ -1,0 +1,30 @@
+
+
+
+ {% extends "base.html" %}
+
+{% block content %}
+
+
+
+	<!-- ================ start banner area ================= -->	
+	<section class="blog-banner-area" id="category">
+		<div class="container h-100">
+			<div class="blog-banner">
+				<div class="text-center">
+					<h1>Logged out!</h1>
+					<nav aria-label="breadcrumb" class="banner-breadcrumb">
+            <ol class="breadcrumb">
+              <li class="breadcrumb-item"><a href="{% url 'productspage:index' %}">Home</a></li>
+              <a href="{% url 'path:login'%}">Click here to login again.</a>
+            </ol>
+          </nav>
+				</div>
+			</div>
+    </div>
+	</section>
+	<!-- ================ end banner area ================= -->
+
+
+
+{% endblock content %} 
